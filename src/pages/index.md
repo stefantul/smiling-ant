@@ -1,71 +1,77 @@
 ---
 title: Home
 sections:
-  - type: icons
+  - background_style: style2
+    component: Icons
+    icons:
+      - icon: fa-camera-retro
+        title: Shoot
+      - icon: fa-refresh
+        title: Process
+      - icon: fa-cloud
+        title: Upload
+    section_id: one
     title: |-
       Sed ipsum magna lorem tempus amet
       vehicula et gravida elementum
-    section_id: one
-    component: Icons
-    background_style: style2
+    type: icons
+  - component: Spotlights
     icons:
-      - title: Shoot
-        icon: fa-camera-retro
-      - title: Process
-        icon: fa-refresh
-      - title: Upload
-        icon: fa-cloud
-  - type: spotlights
-    title: Spotlights Section
+      - icon: fa-camera-retro
+        title: Ipsum lorem accumsan
+      - icon: fa-refresh
+        title: Sed vehicula elementum
+      - icon: fa-cloud
+        title: Elit fusce consequat
+      - icon: fa-code
+        title: Lorem nullam tempus
+      - icon: fa-desktop
+        title: Adipiscing amet sapien
     section_id: two
-    component: Spotlights
     spotlights:
-      - title: Magna sed ultrices
+      - image: images/pic01.jpg
         text: >-
           Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum
           elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In
           convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.
-        image: images/pic01.jpg
-      - title: Ultrices nullam aliquam
+        title: Magna sed ultrices
+      - image: images/pic02.jpg
         text: >-
           Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum
           elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In
           convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.
-        image: images/pic02.jpg
-      - title: Aliquam sed magna
+        title: Ultrices nullam aliquam
+      - image: images/pic03.jpg
         text: >-
           Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum
           elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In
           convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.
-        image: images/pic03.jpg
-    icons:
-      - title: Ipsum lorem accumsan
-        icon: fa-camera-retro
-      - title: Sed vehicula elementum
-        icon: fa-refresh
-      - title: Elit fusce consequat
-        icon: fa-cloud
-      - title: Lorem nullam tempus
-        icon: fa-code
-      - title: Adipiscing amet sapien
-        icon: fa-desktop
-  - type: cta
-    title: Magna leo sapien gravida
-    section_id: three
-    component: Cta
-    subtitle: |-
-      Gravida at leo elementum elit fusce accumsan dui libero, quis vehicula  
-      lectus ultricies eu. In convallis amet leo sapien iaculis efficitur.
-    background_style: style2
-    actions:
-      - label: Download
-        icon: fa-download
-        url: '#'
+        title: Aliquam sed magna
+    title: Spotlights Section
+    type: spotlights
+  - actions:
+      - icon: fa-download
         is_primary: true
         is_scrolly: false
-      - label: Learn More
+        label: Download
+        url: '#'
+      - is_primary: false
+        is_scrolly: false
+        label: Learn More
         url: /elements
+      - icon: fa-question
         is_primary: false
         is_scrolly: false
+        label: FAQ
+        url: 'http://faq.com'
+    background_style: style2
+    component: Cta
+    section_id: three
+    subtitle: |-
+      Gravida at leo elementum elit fusce accumsan dui libero, quis vehicula\
+      lectus ultricies eu. In convallis amet leo sapien iaculis efficitur.
+    title: Magna leo sapien gravida
+    type: cta
 template: home
 ---
+
