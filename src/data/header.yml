@@ -1,18 +1,19 @@
 title_url: '#'
 subtitle: |-
-  Nibh sed aliquam, cursus arcu aliquet  
-  natoque rhoncus ut non in Aliquet
+  The greatest browser extension
+
+  in the world!
 actions:
-  - label: Download
-    icon: fa-download
-    url: /elements
+  - icon: fa-download
     is_primary: true
     is_scrolly: false
-  - label: Learn More
-    icon: fa-chevron-down
-    url: '#one'
+    label: Download
+    url: /elements
+  - icon: fa-chevron-down
     is_primary: false
     is_scrolly: true
+    label: Learn More
+    url: '#one'
 img:
   path: images/screen.jpg
   phone_border: true
